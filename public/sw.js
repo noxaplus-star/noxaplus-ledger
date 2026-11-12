@@ -1,5 +1,5 @@
 /* NoxaPlus Ledger — offline shell */
-const VERSION = 'v1';
+const VERSION = 'v1.0.1';
 const CACHE_NAME = `noxaplus-ledger-${VERSION}`;
 const APP_SHELL = [
   './',

@@ -2,6 +2,15 @@
 
 All notable changes to NoxaPlus Ledger are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] — 2026-11-12
+
+### Fixed
+
+- Root `index.html` now opens the full ledger directly from disk, without Node.js or a server.
+- Embed JavaScript, CSS, and fonts to avoid file-origin module restrictions.
+- Move the development entry to `app/` and refresh the standalone HTML on each build.
+- Register the service worker only over HTTP(S) and document file-origin storage limitations.
+
 ## [1.0.0] — 2026-11-12
 
 First public release.

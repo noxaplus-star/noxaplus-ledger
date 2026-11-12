@@ -13,7 +13,7 @@ createRoot(container).render(
   </StrictMode>,
 );
 
-if ('serviceWorker' in navigator && import.meta.env.PROD) {
+if ('serviceWorker' in navigator && import.meta.env.PROD && location.protocol.startsWith('http')) {
   window.addEventListener('load', () => {
     const url = new URL('sw.js', document.baseURI);
     navigator.serviceWorker.register(url, { scope: './' }).catch(() => {

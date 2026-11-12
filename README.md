@@ -127,6 +127,14 @@ Clearing site data or uninstalling the PWA removes the local ledger, so keep per
 
 ## Quick start
 
+### Open directly — no installation
+
+Download and extract the repository ZIP (or clone it), then double-click **`index.html` in the repository root**. The complete app, including JavaScript, CSS, and fonts, is embedded in this file. No Node.js, server, or internet connection is needed. `app/index.html` is the development source entry, not the standalone application.
+
+Downloads work from disk; clipboard and PWA installation depend on browser support. Service workers only run over HTTP(S). Storage for `file://` URLs varies by browser and file location: export a JSON backup before moving the folder or switching browsers. After a build, `dist/index.html` is also directly usable.
+
+### Develop from source
+
 Requirements: **Node.js 20 or newer** (22 LTS recommended) and npm.
 
 ```bash
@@ -145,7 +153,7 @@ npm run build
 npm run preview
 ```
 
-The static output is written to `dist/`. It can be hosted on GitHub Pages, Netlify, Cloudflare Pages or any static file server.
+The self-contained static output is written to `dist/`, and the standalone root `index.html` is refreshed automatically. It can be hosted on GitHub Pages, Netlify, Cloudflare Pages or any static file server.
 
 ## How the ledger works
 
