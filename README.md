@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/brand.png" alt="NoxaPlus" width="520"></p>
+
 # NoxaPlus Ledger
 
 **A local-first personal finance ledger for the Persian calendar.**

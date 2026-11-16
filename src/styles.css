@@ -4073,3 +4073,7 @@ a:hover {
     opacity: 0.85;
   }
 }
+
+/* NoxaPlus brand logo */
+.brand-logo{display:block;flex:none}
+.brand-logo img{display:block;height:100%;width:auto}

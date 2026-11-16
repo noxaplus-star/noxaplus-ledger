@@ -16,7 +16,7 @@ import { ConfirmDialog } from './components/ConfirmDialog';
 import { HelpDialog } from './components/HelpDialog';
 import { Icon, type IconName } from './components/Icon';
 import { ImportDialog } from './components/ImportDialog';
-import { Logo } from './components/Logo';
+import { BrandLogo, Logo } from './components/Logo';
 import { MonthSwitcher } from './components/MonthSwitcher';
 import { Toasts } from './components/Toasts';
 import { TransactionDialog } from './components/TransactionDialog';
@@ -223,7 +223,7 @@ export default function App() {
 
       <aside className={`sidebar ${sidebarOpen ? 'is-open' : ''}`} aria-label="ناوبری اصلی">
         <div className="sidebar__brand">
-          <Logo size={40} />
+          <BrandLogo height={46} />
           <div className="sidebar__brand-copy">
             <strong>NoxaPlus</strong>
             <span>Ledger</span>

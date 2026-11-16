@@ -1,4 +1,5 @@
 import { useId } from 'react';
+import markLight from '../assets/mark-light.png';
 
 interface LogoProps {
   size?: number;
@@ -41,6 +42,14 @@ export function BrandName({ className }: { className?: string }) {
   return (
     <span className={className}>
       <strong>NoxaPlus</strong> Ledger
+    </span>
+  );
+}
+
+export function BrandLogo({ height = 44, className }: { height?: number; className?: string }) {
+  return (
+    <span className={`brand-logo${className ? ` ${className}` : ''}`} style={{ height }}>
+      <img className="brand-logo__mark" src={markLight} alt="NoxaPlus" />
     </span>
   );
 }

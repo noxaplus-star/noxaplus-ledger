@@ -2,6 +2,15 @@
 
 All notable changes to NoxaPlus Ledger are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## 1.0.2 - 2026-11-16
+
+Brand update.
+
+- The sidebar now shows the original NoxaPlus logo, with a light variant for
+  the dark theme, instead of a product letter mark.
+- The README uses the official NoxaPlus brand banner.
+- Interface version labels now read 1.0.2.
+
 ## [1.0.1] — 2026-11-12
 
 ### Fixed
